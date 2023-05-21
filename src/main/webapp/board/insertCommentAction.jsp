@@ -3,6 +3,9 @@
 <%@ page import = "vo.*" %>
 <%@ page import = "java.sql.*" %>
 <%
+	// 한글 깨지지 않게 인코딩
+	request.setCharacterEncoding("utf-8");
+
 	//콘솔창 출력 색상 지정
 	final String RED = "\u001B[31m";
 	final String BG_RED = "\u001B[41m";

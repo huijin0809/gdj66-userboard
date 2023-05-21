@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%
+	// 한글 깨지지 않게 인코딩
+	request.setCharacterEncoding("utf-8");
+
 	//세션 유효성 검사 // 로그인되어있는 상태면 이 페이지에 올 수 없음
 	if(session.getAttribute("loginMemberId") != null) {
 		response.sendRedirect(request.getContextPath() + "/home.jsp");

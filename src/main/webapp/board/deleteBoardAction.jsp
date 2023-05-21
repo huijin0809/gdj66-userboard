@@ -2,6 +2,9 @@
 <%@ page import="java.net.*" %>
 <%@ page import="java.sql.*" %>
 <%
+	// 한글 깨지지 않게 인코딩
+	request.setCharacterEncoding("utf-8");
+
 	// 1. 유효성 검사
 	// 세션값, 요청값 (boardNo, memberId)
 	String msg = null;

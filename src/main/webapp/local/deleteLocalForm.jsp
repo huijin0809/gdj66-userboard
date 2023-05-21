@@ -1,6 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="java.sql.*" %>
 <%
+	// 한글 깨지지 않게 인코딩
+	request.setCharacterEncoding("utf-8");
+
 	// 1. 유효성 검사
 	// 세션값, localName
 	if(session.getAttribute("loginMemberId") == null) {

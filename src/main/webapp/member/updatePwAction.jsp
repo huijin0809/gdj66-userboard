@@ -3,6 +3,9 @@
 <%@ page import="java.net.*" %>
 <%@ page import="vo.*" %>
 <%
+	// 한글 깨지지 않게 인코딩
+	request.setCharacterEncoding("utf-8");
+
 	// 1. 유효성 검사
 	// 1-1. 세션
 	if(session.getAttribute("loginMemberId") == null) {
