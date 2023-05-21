@@ -111,7 +111,7 @@
 			<h5 class="krFont"> 현재 게시글이 존재하는 카테고리입니다. 수정할 수 없습니다 &#x1F614; </h5>
 			<h5 class="text-danger krFont"> <%=localName%> 카테고리의 현재 게시글 수는 <%=localCnt%>개 입니다.</h5>
 			<br>
-			<a href="<%=request.getContextPath()%>/local/localList.jsp" class="btn btn-success">
+			<a href="<%=request.getContextPath()%>/local/localList.jsp" class="btn btn-secondary">
 				뒤로가기
 			</a>
 	<%
