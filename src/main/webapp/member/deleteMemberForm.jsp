@@ -34,7 +34,7 @@
 <body>
 <div> <!-- mainmenu include -->
 	<jsp:include page="/inc/mainmenu.jsp"></jsp:include>
-</div>>	
+</div>
 
 <div class="container mt-5 krFont">
 	<h1>Delete your account</h1>
